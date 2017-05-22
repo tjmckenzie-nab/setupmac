@@ -21,3 +21,9 @@
     name: "{{item}}"
     state: installed 
   with_items: "{{cask_applications}}"
+
+- name: Install Valet
+  composer:
+    command: require
+    global_command: yes
+    arguments: laravel/valet

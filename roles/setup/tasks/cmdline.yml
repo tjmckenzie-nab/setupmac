@@ -5,4 +5,6 @@
   homebrew:
     name: "{{item}}"
     state: latest
-
+    
+- name: Remove Apache
+  shell: sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
