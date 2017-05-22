@@ -35,8 +35,8 @@ cask_applications:
   - psequel
   - pgadmin4
 
-#downloads:
-   #zwift:
-     #name: Zwift
-     #url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-     #dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
+# downloads:
+#    zwift:
+#      name: Zwift
+#      url: http://cdn.zwift.com/app/ZwiftOSX.dmg
+#      dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
